@@ -4,7 +4,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+ 
     <ProjectGuid>{8C60B6C3-EB80-4686-B539-F0548EF18CC5}</ProjectGuid>
+ 
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App.IDAL</RootNamespace>

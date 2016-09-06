@@ -15,7 +15,7 @@ namespace AppSolution.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.2";
 
             return View();
         }
@@ -23,8 +23,9 @@ namespace AppSolution.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+                          
             return View();
         }
+       
     }
 }
