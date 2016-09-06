@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Data.Objects;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace App.Common.EFRepository
 {
-    interface IUnitOfWork   : IDisposable
+   public interface IUnitOfWork   : IDisposable
     {
-        bool IsInTranscation { get; }
+        bool IsInTransaction { get; }
 
         void SaveChange();
 
@@ -19,5 +20,13 @@ namespace App.Common.EFRepository
         void BeginTransaction();
 
         void BeginTransaction(IsolationLevel isolationLevel);
+
+        void RollBacktransaction();
+
+        void CommitTransaction();
+        DbContext GetContext();
+
+
+
     }
 }

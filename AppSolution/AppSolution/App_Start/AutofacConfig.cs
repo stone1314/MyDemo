@@ -1,4 +1,5 @@
-﻿using Autofac;
+﻿using App.Common.EFRepository;
+using Autofac;
 using Autofac.Integration.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,7 +16,12 @@ namespace AppSolution.App_Start
             //注入Controller
             builder.RegisterControllers(typeof(MvcApplication).Assembly).PropertiesAutowired(PropertyWiringOptions.AllowCircularDependencies);
             //IUnitOfWork
-            builder.RegisterType<>()
+            builder.RegisterType<UnitOfWork>()
+                .As<IUnitOfWork>()
+                .InstancePerRequest();
+
+
+
         }
 
     }
