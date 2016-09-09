@@ -4,6 +4,7 @@ using Autofac.Integration.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web;
 
 namespace AppSolution.App_Start
@@ -20,7 +21,15 @@ namespace AppSolution.App_Start
                 .As<IUnitOfWork>()
                 .InstancePerRequest();
 
+            //注入数据库查询语句执行类
+            builder.RegisterType<RepositoryBaseSql>()
+                .As<IRepositoryBaseSql>()
+                .InstancePerRequest();
 
+            Assembly[] AsmSvr = new Assembly[2];
+            AsmSvr[0] = Assembly.Load("App.BLL");
+            AsmSvr[1] = Assembly.Load("App.IBLL");
+            builder.RegisterAssemblyTypes(AsmSvr)
 
         }
 

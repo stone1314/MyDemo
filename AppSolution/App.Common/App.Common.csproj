@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EFRepository\DbContextFactory.cs" />
     <Compile Include="EFRepository\IDbContextFactory.cs" />
+    <Compile Include="EFRepository\IRepositoryBaseSql.cs" />
     <Compile Include="EFRepository\IUnitOfWork.cs" />
+    <Compile Include="EFRepository\RepositoryBaseSql.cs" />
     <Compile Include="EFRepository\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

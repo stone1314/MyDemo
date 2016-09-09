@@ -25,8 +25,6 @@ namespace App.Common.EFRepository
 
         void CommitTransaction();
         DbContext GetContext();
-
-
-
+                      
     }
 }
