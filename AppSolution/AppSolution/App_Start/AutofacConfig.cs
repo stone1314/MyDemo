@@ -30,6 +30,10 @@ namespace AppSolution.App_Start
             AsmSvr[0] = Assembly.Load("App.BLL");
             AsmSvr[1] = Assembly.Load("App.IBLL");
             builder.RegisterAssemblyTypes(AsmSvr)
+                .Where(t => t.Name.ToLower().EndsWith("service"))
+                .AsImplementedInterfaces()
+                .InstancePerLifetimeScope()
+                .PropertiesAutowired(PropertyWiringOptions.AllowCircularDependencies);
 
         }
 
