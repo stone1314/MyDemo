@@ -1,0 +1,12 @@
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\App.IBLL.dll.config
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\App.IBLL.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\App.IBLL.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\EntityFramework.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\EntityFramework.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\obj\Debug\App.IBLL.csprojResolveAssemblyReference.cache
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\obj\Debug\App.IBLL.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.IBLL\obj\Debug\App.IBLL.pdb

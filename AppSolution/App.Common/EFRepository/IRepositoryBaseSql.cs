@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace App.Common.EFRepository
 {
-    interface IRepositoryBaseSql
+    public interface IRepositoryBaseSql
     {
         /// <summary>
         /// 对数据库执行的DDL
@@ -45,7 +45,7 @@ namespace App.Common.EFRepository
         /// <summary>
         /// UnitOfWork 对象
         /// </summary>
-        IUnitOfWork UntiOfWork { get; }
+        IUnitOfWork UnitOfWork { get; }
     
     
     

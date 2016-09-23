@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“MyDB.dbo.SysSample”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="SysSample">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+    <Property Name="Bir" Type="datetime" />
+    <Property Name="Photo" Type="varchar" MaxLength="50" />
+    <Property Name="Note" Type="text" />
+    <Property Name="CreateTime" Type="datetime" />
+  </EntityType>
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“MyDB.dbo.TB_USER”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="TB_USER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="Age" Type="int" />
+  </EntityType>
+  <EntityContainer Name="MyDBModelStoreContainer">
+    <EntitySet Name="SysSample" EntityType="Self.SysSample" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [SysSample].[Id] AS [Id], 
+    [SysSample].[Name] AS [Name], 
+    [SysSample].[Age] AS [Age], 
+    [SysSample].[Bir] AS [Bir], 
+    [SysSample].[Photo] AS [Photo], 
+    [SysSample].[Note] AS [Note], 
+    [SysSample].[CreateTime] AS [CreateTime]
+    FROM [dbo].[SysSample] AS [SysSample]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TB_USER" EntityType="Self.TB_USER" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TB_USER].[ID] AS [ID], 
+    [TB_USER].[Name] AS [Name], 
+    [TB_USER].[Age] AS [Age]
+    FROM [dbo].[TB_USER] AS [TB_USER]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

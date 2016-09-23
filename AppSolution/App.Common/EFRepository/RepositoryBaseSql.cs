@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App.Common.EFRepository
 {
-    class RepositoryBaseSql:IRepositoryBaseSql
+   public class RepositoryBaseSql:IRepositoryBaseSql
     {
         private IUnitOfWork unitOfWork;
 
@@ -60,6 +60,18 @@ namespace App.Common.EFRepository
             var ret = ((IObjectContextAdapter)UnitOfWork.GetContext()).ObjectContext.ExecuteFunction(functionName, parameters);
             return ret;
         }
-        
+
+
+
+        public R ExcuteFunction<R>(string functionName, params System.Data.Objects.ObjectParameter[] parameters)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int ExcuteFunction(string functionName, params System.Data.Objects.ObjectParameter[] parameters)
+        {
+            throw new NotImplementedException();
+        }
+                     
     }
 }

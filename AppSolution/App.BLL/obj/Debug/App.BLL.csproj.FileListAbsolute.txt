@@ -1,0 +1,4 @@
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.BLL\bin\Debug\App.BLL.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.BLL\bin\Debug\App.BLL.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.BLL\obj\Debug\App.BLL.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.BLL\obj\Debug\App.BLL.pdb

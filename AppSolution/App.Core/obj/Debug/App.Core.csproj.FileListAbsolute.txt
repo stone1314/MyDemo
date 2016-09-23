@@ -1,0 +1,4 @@
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Core\bin\Debug\App.Core.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Core\bin\Debug\App.Core.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Core\obj\Debug\App.Core.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Core\obj\Debug\App.Core.pdb

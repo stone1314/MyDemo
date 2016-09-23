@@ -1,0 +1,14 @@
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\obj\Debug\App.Models.csprojResolveAssemblyReference.cache
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\App.Models.dll.config
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\App.Models.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\App.Models.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\EntityFramework.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\EntityFramework.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\obj\Debug\App.Models.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\obj\Debug\App.Models.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\App.Entity.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Models\bin\Debug\App.Entity.pdb

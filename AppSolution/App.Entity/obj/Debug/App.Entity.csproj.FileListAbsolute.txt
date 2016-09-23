@@ -1,0 +1,11 @@
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\App.Entity.dll.config
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\App.Entity.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\App.Entity.pdb
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\EntityFramework.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\EntityFramework.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\obj\Debug\App.Entity.dll
+C:\Users\haihuahuang\Desktop\MyDemo2\MyDemo\AppSolution\App.Entity\obj\Debug\App.Entity.pdb
